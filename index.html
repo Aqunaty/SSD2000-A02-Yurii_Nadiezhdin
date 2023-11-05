@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Assignment 02 - Green Mode</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
-    <title>OOP_JS</title>
 </head>
 <body>
     <div class="game-window">
         <div class="upper-block">
+            <h1 class="header">Assignment 02 - Green Mode</h1>
         </div>
-        <div class="enter-name">
-            <div>
-                <input type="text" id="player1" name="username" placeholder="Player 0">
-                <button id="player1-join">Join</button>
+        <div class="content">
+            <div id="splashScreen" class="screen active-screen">
+                <h1 class="splash">Splash</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione eum magni nostrum sint dicta, porro expedita a vitae libero, sapiente, non suscipit veritatis laboriosam molestiae ullam pariatur reiciendis. Eos!</p>
+                <button class="btn btn-success">Start Game</button>
             </div>
-            <div>
-                <input type="text" id="player2" name="username" placeholder="Player 1">
-                <button id="player2-join">Join</button>
+            <div id="gameScreen" class="screen">
+                <h1 class="splash">Game</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione eum magni nostrum sint dicta, porro expedita a vitae libero, sapiente, non suscipit veritatis laboriosam molestiae ullam pariatur reiciendis. Eos!</p>
+                <button class="btn btn-success">Play/Pause</button>
+                <button class="btn btn-danger">End Game</button>
             </div>
-        </div> 
-        <div class="button">
-            <button id="startGame">Start Game</button>
-            <button id="switch">Switch Players</button>
-            <button id="scorePoints">Score Points</button>
-        </div>
-        <div class="gameRunningScreen">
-            <h1 id="GRS">GAME IS NOT STARTED</h1>
+            <div id="gameOverScreen" class="screen">
+                <h1 class="splash">Splash</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione eum magni nostrum sint dicta, porro expedita a vitae libero, sapiente, non suscipit veritatis laboriosam molestiae ullam pariatur reiciendis. Eos!</p>
+                <button class="btn btn-secondary">Quit</button>
+                <button class="btn btn-primary">Play Again</button>
+            </div>
+                
         </div>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script src="./script.js"></script>
 </html>
