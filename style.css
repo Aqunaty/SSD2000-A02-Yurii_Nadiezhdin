@@ -1,0 +1,59 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-window
+{
+    margin-top: 40px;
+    background-color: black;
+    min-height: 800px;
+    border-radius: 20px;
+}
+.upper-block
+{
+    height: 100px;
+    background-color: blue;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:whitesmoke;
+}
+.upper-block div
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.upper-block h1
+{
+    margin-left: 10px;
+    
+}
+.enter-name
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: white;
+}
+.button button
+{   
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.gameRunningScreen
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+}
